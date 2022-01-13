@@ -18,15 +18,23 @@ body {
   align-items: center;
   justify-content: center;
 }
+.inputCountry{
+  border-color: rgb(216, 180, 180);
+  border-style: dotted;
+  max-width: 300px;
+  height: 30px;
+  font-size: large;
+}
 
 .container {
   display: flex;
   flex-direction: column;
-  align-items: left;
 }
 
 .countries {
   /* margin-bottom: 8rem; */
+  padding-top: 20px;
+  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   font-size: 2rem;
@@ -100,10 +108,11 @@ body {
 .btn-country {
   border: none;
   font-size: 2rem;
+  
   padding: 2rem 5rem;
   border-radius: 0.7rem;
   color: white;
-  background-color: orangered;
+  background-color: rgb(184, 46, 103);
   cursor: pointer;
 }
 
